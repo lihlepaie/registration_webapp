@@ -1,0 +1,35 @@
+body{
+  background-color: olive green;
+}
+
+.container{
+  background-color: white;
+  width: 80%;
+  margin: auto;
+  padding: 1em;
+  font-family: "Arial"
+}
+
+.header{
+  display: inline;
+}
+label{
+  font-weight: bold;
+}
+.error{
+  color: green;
+}
+.style{
+  display: inline-block;
+  border: 2px solid black;
+    padding: 10px 40px;
+    background: yellow;
+    width: 140px;
+    border-radius: 25px;
+   outline: none;
+   color: #fff;
+   background-color: #4CAF50;
+   border-radius: 4px;
+   margin-left: 13cm;
+   max-height: 15px;
+}
