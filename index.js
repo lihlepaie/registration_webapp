@@ -5,7 +5,9 @@ const bodyParser = require('body-parser');
 const flash = require('express-flash')
 const RegnumberRoutes = require('./registration');
 const Models = require('./models')
-const models = Models('mongodb://localhost/regNumber')
+const mongoUrl = process.env.MONGO_DB_URL || 'mongodb://localhost/regNumber';
+const models = Models(mongoUrl);
+
 
 
 const regNumberRoutes = RegnumberRoutes(models);
