@@ -1,9 +1,9 @@
-body{
-  background-color: olive green;
+.reg{
+  background-color: blue;
 }
 
 .container{
-  background-color: white;
+  background-color: pink;
   width: 80%;
   margin: auto;
   padding: 1em;
