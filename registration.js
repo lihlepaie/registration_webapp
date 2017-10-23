@@ -34,8 +34,8 @@ module.exports = function(models) {
                 if (err) {
 
                     if (err.code === 11000) {
-                        req.flash('error', 'Well done Registration Number has been added!')
-                        res.redirect('registration')
+                        // req.flash('error', 'Well done Registration Number has been added!')
+                        // res.redirect('registration')
                     }
                 } else {
                     models.RegNumberSchema.find({}, function(err, results) {
